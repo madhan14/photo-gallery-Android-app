@@ -30,11 +30,11 @@ const App: React.FC = () => (
       <IonTabs>
         <IonRouterOutlet>
           <Route exact path="/">
-            <Redirect to="/tab2" />
+            <Redirect to="/gallery" />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
-          <IonTabButton tab="tab2" href="/tab2">
+          <IonTabButton tab="gallery" href="/gallery">
             <IonIcon icon={images} />
             <IonLabel>Gallery</IonLabel>
           </IonTabButton>
